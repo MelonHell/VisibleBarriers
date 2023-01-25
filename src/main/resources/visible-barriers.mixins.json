@@ -9,13 +9,12 @@
     "blocks.BarrierBlockMixin",
     "blocks.LightBlockMixin",
     "blocks.StructureVoidBlockMixin",
+    "entities.EntityMixin",
     "entities.EntityTypeMixin",
     "entities.MarkerEntityMixin"
   ],
   "client": [
-    "entities.ArmorStandEntityRendererMixin",
-    "entities.EmptyEntityRendererMixin",
-    "entities.EntityRendererMixin"
+    "entities.EmptyEntityRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
